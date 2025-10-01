@@ -24,7 +24,7 @@ React Router DOM is used for routing in React apps. It allows navigation between
 git clone https://github.com/HirenSiyodia/React-Router-Dom.git
 
 ### * Navigate into it
-cd 01-Vite-Developer
+cd React-Router-Dom
 
 ### * Install dependencies
 npm install
