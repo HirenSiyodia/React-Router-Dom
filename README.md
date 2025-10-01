@@ -1,16 +1,35 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React Router DOM is used for routing in React apps. It allows navigation between pages without reloading the whole app. React Router DOM makes SPA (Single Page Application) navigation smooth by handling dynamic routing, nested layouts, route params, and navigation hooks — all declaratively in React.
 
-Currently, two official plugins are available:
+# 📦 Features
+- Makes it easy to read and understand the navigation flow.
+- Routing is defined using React components (<Route>, <Routes>, <Link>, etc.)
+- Routes are generated dynamically as components render.
+- You can pass parameters like /user/:id and fetch data based on id.
+- Keeps layouts consistent while switching child components.
+- Hooks like useParams() help extract them -> Access route parameters.
+- Provides declarative navigation with <Link> and <NavLink>.
+- <Outlet /> acts as a placeholder for nested routes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+# 🚀 Tech Stack
+- React (frontend)
+- Vite (build tool)
+- Tailwind CSS (styling)
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  
+# ⚙️ Installation
+### * Clone the Repo
+git clone https://github.com/HirenSiyodia/React-Router-Dom.git
 
-## Expanding the ESLint configuration
+### * Navigate into it
+cd 01-Vite-Developer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### * Install dependencies
+npm install
+
+### * Run it locally
+npm run dev
+
+
