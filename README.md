@@ -4,7 +4,7 @@ React Router DOM is used for routing in React apps. It allows navigation between
 
 # 📦 Features
 - Makes it easy to read and understand the navigation flow.
-- Routing is defined using React components (<Route>, <Routes>, <Link>, etc.)
+- Routing is defined using React components
 - Routes are generated dynamically as components render.
 - You can pass parameters like /user/:id and fetch data based on id.
 - Keeps layouts consistent while switching child components.
